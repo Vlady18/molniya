@@ -89,11 +89,14 @@ section {
   margin-top: 35px;
   margin-bottom: 30px; }
 
-.logo img {
-  max-width: 100%; }
+.logo {
+  margin-left: -50px;
+  margin-top: -5px; }
+  .logo img {
+    max-width: 100%; }
 
 .review-but {
-  margin-left: 30px; }
+  margin-right: -30px; }
   .review-but a {
     display: block;
     background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
