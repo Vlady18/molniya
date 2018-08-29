@@ -91,9 +91,6 @@ section {
 .logo img {
   max-width: 100%; }
 
-.wrap-line-menu {
-  margin-bottom: 30px; }
-
 .review-but {
   margin-left: 30px; }
   .review-but a {
@@ -152,10 +149,15 @@ section {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding: 30px 0px; }
+  padding: 33px 0px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08); }
   .main-manu li {
     float: left;
     margin-right: 45px; }
+    .main-manu li:first-child {
+      padding-left: 50px; }
     .main-manu li a {
       font-style: normal;
       font-weight: 600;
@@ -257,7 +259,13 @@ section {
   font-weight: bold;
   line-height: normal;
   font-size: 18px;
-  color: #636363; }
+  color: #636363;
+  margin: 0; }
+
+.wwrpa {
+  background: #F4F4F4;
+  padding-left: 80px;
+  padding-top: 30px; }
 
 .left-menu {
   padding: 0;
