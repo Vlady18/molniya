@@ -54,7 +54,8 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 850px; }
+  width: 850px;
+  margin-top: 70px; }
 
 .slick-dots {
   margin-bottom: 40px;
@@ -90,9 +91,6 @@ section {
 
 .logo img {
   max-width: 100%; }
-
-.wrap-line-menu {
-  margin-bottom: 30px; }
 
 .review-but {
   margin-left: 30px; }
@@ -152,7 +150,8 @@ section {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding: 30px 0px; }
+  padding: 33px 0px;
+  background: #FFFFFF; }
   .main-manu li {
     float: left;
     margin-right: 45px; }
@@ -161,9 +160,11 @@ section {
       font-weight: 600;
       line-height: normal;
       font-size: 18px;
-      color: #999999; }
+      color: #999999;
+      padding-bottom: 25px; }
       .main-manu li a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        border-bottom: 5px solid #FAAB00; }
 
 .new-shop .new-shop__title {
   font-family: Open Sans;
@@ -288,7 +289,9 @@ section {
   font-weight: bold;
   line-height: normal;
   font-size: 18px;
-  color: #636363; }
+  color: #636363;
+  margin: 0;
+  margin-bottom: 10px; }
 
 .left-menu {
   padding: 0;
@@ -306,5 +309,11 @@ section {
     .left-menu li a span {
       width: 30px;
       float: right; }
+
+.wraps {
+  background: #F4F4F4;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
