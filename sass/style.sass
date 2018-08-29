@@ -181,11 +181,10 @@ section
 			display: flex
 			flex-direction: column
 			align-items: center
-			width: 230px
-			max-width: 230px
-			height: 370px
+			// width: 230px
+			// height: 370px
 			border: 1px solid #EBEBEB
-			box-sizing: border-box
+			// box-sizing: border-box
 			border-radius: 10px
 			margin: 0 18px
 			img
@@ -293,8 +292,53 @@ section
 	padding-top: 40px
 	padding-left: 90px
 	padding-bottom: 40px
-
+@media screen and (max-width: 1439px)
+	.mail
+		margin-left: 25px
+	.tel
+		margin-left: 80px
+@media screen and (max-width: 1355px)
+	.main-manu
+		margin-left: 20px
+		li
+			a
+				font-size: 15px
+@media screen and (max-width: 1200px)
+	.media-container
+		display: flex
+		justify-content: center
+	.media-container2
+		display: flex
+		justify-content: center
+		flex-direction: column
+		align-items: center
+	.logo
+		margin: 0
+		text-align: center
+		margin-bottom: 10px
+	.tel
+		margin: 0
+		text-align: center
+		margin-bottom: 10px
+	.mail
+		margin: 0
+		text-align: center
+		margin-bottom: 10px
+	.review-but
+		margin: 0
 @media screen and (max-width: 890px)
-	.top-slider__list-item
-		img
-			width: 80%
+	.new-shop .new-shop__slider
+		// width: 90%
+@media screen and (max-width: 770px)
+	.main-manu
+		text-align: center
+		margin: 0
+		li
+			float: none
+			padding-bottom: 10px
+			margin-left: 0
+			margin-right: 0
+			a
+				padding-bottom: 0px
+	.wraps
+		padding-left: 20px

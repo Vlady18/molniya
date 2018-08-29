@@ -8,15 +8,29 @@ $( document ).ready(function() {
   $('.new-shop__slider').slick({
     nextArrow: '<i class="fa fa-chevron-circle-right nextArrow-slick" aria-hidden="true"></i>',
     prevArrow: '<i class="fa fa-chevron-circle-left prevArrow-slick" aria-hidden="true"></i>',
-    dotsClass: 'slick-dots',
     slidesToShow: 3,
     responsive: [
+
     {
       breakpoint: 890,
       settings: {
         slidesToShow: 1,
+
+      {
+        breakpoint: 890,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 793,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+
       }
-    }
   ]
   });
 });
