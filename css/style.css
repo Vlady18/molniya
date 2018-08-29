@@ -1,0 +1,75 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@font-face {
+  font-family: "exo2";
+  src: url("../fonts/exo2.woff2") format("woff2"), url("../fonts/exo2.woff") format("woff"), url("../fonts/exo2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "exo2";
+  src: url("../fonts/exo2bold.woff2") format("woff2"), url("../fonts/exo2bold.woff") format("woff"), url("../fonts/exo2bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: "exo2";
+  src: url("../fonts/exo2black.woff2") format("woff2"), url("../fonts/exo2black.woff") format("woff"), url("../fonts/exo2black.ttf") format("truetype");
+  font-weight: black;
+  font-style: normal; }
+@font-face {
+  font-family: "exo2";
+  src: url("../fonts/exo2black.woff2") format("woff2"), url("../fonts/exo2black.woff") format("woff"), url("../fonts/exo2black.ttf") format("truetype");
+  font-weight: black;
+  font-style: normal; }
+.complect {
+  color: #8B8B8B;
+  background: #F3F3F3;
+  text-align: center;
+  padding: 10px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px; }
+
+.logo img {
+  max-width: 100%; }
+
+.review-but a {
+  display: block;
+  background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
+  -webkit-box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
+          box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
+  border-radius: 6px;
+  width: 255px;
+  text-align: center;
+  padding: 13px 0px;
+  font-size: 18px;
+  color: #fff; }
+  .review-but a img {
+    margin-left: 10px;
+    margin-top: -3px; }
+  .review-but a:hover {
+    text-decoration: none; }
+
+.tel .tel__href {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none; }
+  .tel .tel__href:hover {
+    text-decoration: none; }
+
+.mail .mail__href {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
