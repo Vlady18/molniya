@@ -55,7 +55,8 @@ section {
       -ms-flex-align: center;
           align-items: center;
   width: 850px;
-  margin-top: 70px; }
+  margin-top: 50px;
+  margin-left: 25px; }
 
 .slick-dots {
   margin-bottom: 40px;
@@ -89,11 +90,15 @@ section {
   margin-top: 35px;
   margin-bottom: 30px; }
 
-.logo img {
-  max-width: 100%; }
+.logo {
+  margin-left: -12px;
+  margin-top: -3px; }
+  .logo img {
+    max-width: 100%; }
 
 .review-but {
-  margin-left: 30px; }
+  margin-left: 88px;
+  margin-top: 10px; }
   .review-but a {
     display: block;
     background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
@@ -112,8 +117,8 @@ section {
       text-decoration: none; }
 
 .tel {
-  margin-top: 20px;
-  margin-left: 30px; }
+  margin-top: 22px;
+  margin-left: 164px; }
   .tel .tel__href {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -126,7 +131,8 @@ section {
       text-decoration: none; }
 
 .mail {
-  margin-top: 20px; }
+  margin-top: 22px;
+  margin-left: 63px; }
   .mail .mail__href {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -151,10 +157,12 @@ section {
   margin: 0;
   list-style: none;
   padding: 33px 0px;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  margin-top: 9px;
+  margin-left: 59px; }
   .main-manu li {
     float: left;
-    margin-right: 45px; }
+    margin-right: 50px; }
     .main-manu li a {
       font-style: normal;
       font-weight: 600;
@@ -173,8 +181,8 @@ section {
   line-height: normal;
   font-size: 18px;
   color: #636363;
-  margin-top: 50px;
-  margin-left: 50px; }
+  margin-top: 48px;
+  margin-left: 75px; }
 .new-shop .new-shop__slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,7 +194,8 @@ section {
       -ms-flex-align: center;
           align-items: center;
   width: 800px;
-  margin-top: 22px; }
+  margin-top: 20px;
+  margin-left: 48px; }
   .new-shop .new-shop__slider .new-shop__slider__list-item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -255,7 +264,8 @@ section {
 
 .information-text {
   width: 750px;
-  margin-left: -27px; }
+  margin-top: 102px;
+  margin-left: -3px; }
   .information-text p {
     font-family: Open Sans;
     font-style: normal;
