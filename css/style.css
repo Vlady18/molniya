@@ -254,6 +254,36 @@ section {
       color: #FFFFFF;
       margin-top: 10px; }
 
+.information-text {
+  width: 750px;
+  margin-left: -27px; }
+  .information-text p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 16px;
+    color: #636363; }
+  .information-text ul {
+    margin-top: 28px;
+    margin-left: -41px;
+    list-style-type: none; }
+    .information-text ul li {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 26px;
+      font-size: 16px;
+      color: #636363; }
+  .information-text .information-text__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 95px; }
+
 .earth-left {
   font-style: normal;
   font-weight: bold;
