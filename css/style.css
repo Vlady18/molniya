@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 @font-face {
   font-family: "exo2";
@@ -23,7 +22,8 @@
   font-weight: black;
   font-style: normal; }
 section {
-  max-width: 1440px; }
+  max-width: 1440px;
+  margin: 0 auto; }
 
 .complect {
   color: #8B8B8B;
@@ -42,8 +42,7 @@ section {
 .review-but a {
   display: block;
   background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
-  -webkit-box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
-          box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
+  box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
   border-radius: 6px;
   width: 255px;
   text-align: center;
