@@ -1,6 +1,5 @@
 $( document ).ready(function() {
   $('.top-slider').slick({
-    // nextArrow: '<p class="prevArrow-slick"> > </p>',
     nextArrow: '<i class="fa fa-chevron-circle-right nextArrow-slick" aria-hidden="true"></i>',
     prevArrow: '<i class="fa fa-chevron-circle-left prevArrow-slick" aria-hidden="true"></i>',
     dots: true,
@@ -17,11 +16,16 @@ $( document ).ready(function() {
     ]
   });
   $('.new-shop__slider').slick({
-    // nextArrow: '<p class="prevArrow-slick"> > </p>',
     nextArrow: '<i class="fa fa-chevron-circle-right nextArrow-slick" aria-hidden="true"></i>',
     prevArrow: '<i class="fa fa-chevron-circle-left prevArrow-slick" aria-hidden="true"></i>',
     slidesToShow: 3,
     responsive: [
+
+    {
+      breakpoint: 890,
+      settings: {
+        slidesToShow: 1,
+
       {
         breakpoint: 890,
         settings: {
@@ -35,6 +39,7 @@ $( document ).ready(function() {
           slidesToShow: 1,
           slidesToScroll: 1,
         }
+
       }
   ]
   });
