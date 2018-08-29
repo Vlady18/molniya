@@ -84,25 +84,31 @@ section {
 .logo img {
   max-width: 100%; }
 
-.review-but a {
-  display: block;
-  background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
-  -webkit-box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
-          box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
-  border-radius: 6px;
-  width: 255px;
-  text-align: center;
-  padding: 13px 0px;
-  font-size: 18px;
-  color: #fff; }
-  .review-but a img {
-    margin-left: 10px;
-    margin-top: -3px; }
-  .review-but a:hover {
-    text-decoration: none; }
+.wrap-line-menu {
+  margin-bottom: 30px; }
+
+.review-but {
+  margin-left: 30px; }
+  .review-but a {
+    display: block;
+    background: linear-gradient(91.33deg, #F42214 0.19%, #FAAB00 99.77%);
+    -webkit-box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
+            box-shadow: 0px 8px 32px rgba(244, 34, 20, 0.38);
+    border-radius: 6px;
+    width: 255px;
+    text-align: center;
+    padding: 13px 0px;
+    font-size: 18px;
+    color: #fff; }
+    .review-but a img {
+      margin-left: 10px;
+      margin-top: -3px; }
+    .review-but a:hover {
+      text-decoration: none; }
 
 .tel {
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 30px; }
   .tel .tel__href {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -163,6 +169,7 @@ section {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-bottom: 20px;
   text-align: left; }
   .left-menu li a {
     display: block;
@@ -171,5 +178,8 @@ section {
     line-height: 31px;
     font-size: 14px;
     color: #9A9A9A; }
+    .left-menu li a span {
+      width: 30px;
+      float: right; }
 
 /*# sourceMappingURL=style.css.map */
