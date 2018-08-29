@@ -12,6 +12,13 @@ $( document ).ready(function() {
     prevArrow: '<i class="fa fa-chevron-circle-left prevArrow-slick" aria-hidden="true"></i>',
     dotsClass: 'slick-dots',
     slidesToShow: 3,
-
+    responsive: [
+    {
+      breakpoint: 890,
+      settings: {
+        slidesToShow: 2
+      }
+    }
+  ]
   });
 });

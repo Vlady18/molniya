@@ -329,4 +329,8 @@ section {
   padding-left: 90px;
   padding-bottom: 40px; }
 
+@media screen and (max-width: 890px) {
+  .top-slider__list-item img {
+    width: 80%; } }
+
 /*# sourceMappingURL=style.css.map */
