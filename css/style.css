@@ -261,7 +261,8 @@ section {
     font-weight: normal;
     line-height: 26px;
     font-size: 16px;
-    color: #636363; }
+    color: #636363;
+    margin-top: 27px; }
   .information-text ul {
     margin-top: 28px;
     margin-left: -41px;
