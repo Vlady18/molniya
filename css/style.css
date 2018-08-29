@@ -23,7 +23,8 @@
   font-weight: black;
   font-style: normal; }
 section {
-  max-width: 1440px; }
+  max-width: 1440px;
+  margin: 0 auto; }
 
 .complect {
   color: #8B8B8B;
