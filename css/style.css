@@ -121,7 +121,7 @@ section {
 
 .tel {
   margin-top: 22px;
-  margin-left: 164px; }
+  margin-left: 100px; }
   .tel .tel__href {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -135,7 +135,7 @@ section {
 
 .mail {
   margin-top: 22px;
-  margin-left: 63px; }
+  margin-left: 23px; }
   .mail .mail__href {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -159,10 +159,10 @@ section {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding: 33px 0px;
+  padding: 25px 0px;
   background: #FFFFFF;
   margin-top: 9px;
-  margin-left: 59px; }
+  margin-left: 15px; }
   .main-manu li {
     float: left;
     margin-right: 50px; }
