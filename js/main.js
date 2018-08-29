@@ -20,12 +20,6 @@ $( document ).ready(function() {
     prevArrow: '<i class="fa fa-chevron-circle-left prevArrow-slick" aria-hidden="true"></i>',
     slidesToShow: 3,
     responsive: [
-
-    {
-      breakpoint: 890,
-      settings: {
-        slidesToShow: 1,
-
       {
         breakpoint: 890,
         settings: {
